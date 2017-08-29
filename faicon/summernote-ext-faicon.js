@@ -36,7 +36,7 @@
 							tooltip: 'Icon',
 							data: {
 								toggle: 'dropdown'
-							}
+							},
               click: function() {
                 // Cursor position must be saved because is lost when search is clicked
                 context.invoke('editor.saveRange');
